@@ -52,7 +52,7 @@ This project applies two key protocols to manage redundancy effectively:
 
 ## 📅 Presented On
 
-**Computer Network Conference**  
+**Computer Network Course**  
 **April 28, 2025**
 
 ---
