@@ -162,11 +162,10 @@ Example (PC0):
 ---
 
 # 🚀 FINAL SUMMARY
-
-✅ **Routers**: MHSRP configured for redundancy and load sharing.
-✅ **Switches**: VLANs created, STP manages redundant links.
-✅ **PCs**: Properly assigned to VLANs, pointing to Virtual IPs.
-✅ **Redundancy**: If any router or link goes down, PCs will automatically failover to backup path.
+✅ **Routers**: MHSRP configured for redundancy and load sharing. <br>
+✅ **Switches**: VLANs created, STP manages redundant links. <br>
+✅ **PCs**: Properly assigned to VLANs, pointing to Virtual IPs. <br>
+✅ **Redundancy**: If any router or link goes down, PCs will automatically failover to backup path. <br>
 ✅ **Network**: Stable, Loop-Free, High Availability!
 
 ---
