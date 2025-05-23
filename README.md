@@ -11,7 +11,7 @@ In critical networks, even a **single point of failure**—such as a device or l
 - Service disruption
 - Data inaccessibility
 
-## ✅ Solution Overview
+## ✅ Solution Overview +++
 
 This project applies two key protocols to manage redundancy effectively:
 
