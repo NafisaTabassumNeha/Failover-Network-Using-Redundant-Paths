@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.4.24)  8 JUN 2025 18:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.4.24)  8 JUN 2025 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,8 +585,8 @@ Package hyperref Info: Link coloring ON on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-File: logo.png Graphic file (type bmp)
-<logo.png>
+File: pictures/logo.png Graphic file (type bmp)
+<pictures/logo.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <24.88> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -663,8 +663,8 @@ Package rerunfilecheck Info: File `ReportBook.out' has not changed.
 (rerunfilecheck)             Checksum: FEEEFECF38A2325E829DA11662109021;1385.
  ) 
 Here is how much of TeX's memory you used:
- 14999 strings out of 409617
- 286990 string characters out of 5774013
+ 15000 strings out of 409617
+ 287071 string characters out of 5774013
  1961191 words of memory out of 5000000
  36918 multiletter control sequences out of 15000+600000
  567194 words of font info for 92 fonts, out of 8000000 for 9000
