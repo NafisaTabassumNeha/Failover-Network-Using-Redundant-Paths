@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\newfontfamily\hackfont{Hack}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\renewcommand{\contentsname}{Table of Contents}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue}
+  
+
+\pagestyle{fancy}
+\fancyhf{} 							% Header Middle
+\rhead{Computer Networks Lab}
+\lhead{Hardware Lab Report}
+\rfoot{\thepage}
+
+\begin{document}
+
+\begin{titlepage}					% Cover Start
+\begin{center}
+    \includegraphics[width=0.35\textwidth]{logo.png} \\
+    \vspace{0.5cm}
+    \textbf{\Huge \textcolor{teal}{NOTRE DAME} \textcolor{teal}{UNIVERSITY}} \\
+    \vspace{0.5cm}
+    \textbf{\Huge \textcolor{orange}{BANGLADESH}} \\
+    
+    \vspace{0.9cm}
+    \textbf{\Huge \underline{Computer Networks Hardware Lab Report}} \\
+    
+    \vspace{1.5em}
+    \begin{flushleft}
+    	\textbf{\Large Course Code: CSE-3204} \\
+		\vspace{0.3cm}        
+        \textbf{\Large Course Title: Computer Networks Lab} \\
+        \vspace{0.3cm}
+        \textbf{\Large Lab Task Topic: Introduction to Hardware Equipments} \\        
+    \end{flushleft}
+    
+    \vspace{1em}
+    \begin{flushleft}
+        \textbf{\Huge \textcolor{blue}{Submitted by:}} \\
+        \vspace{0.3cm}
+        \textbf{\Large Name: Istiak Alam} \\
+        \vspace{0.3cm}
+        \textbf{\Large ID: 0692230005101005} \\
+		\vspace{0.3cm}        
+        \textbf{\Large Batch: CSE-20} \\
+        \vspace{0.5cm}
+        \textbf{\Large Submission Date: }{\Large \textbf{\today}\par}
+    \end{flushleft}
+    \vfill
+    \begin{flushleft}
+        \textbf{\Huge \textcolor{blue}{Submitted to:}} \\
+        \vspace{0.3cm}
+        \textbf{\Large Dr. Fernaz Narin Nur} \\
+        \vspace{0.3cm}
+        \textbf{\Large Adjunct Professor,} \\
+        \vspace{0.3cm}
+        \textbf{\Large Notre Dame University Bangladesh}
+    \end{flushleft}
+\end{center}
+\end{titlepage}						% Cover End
+
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\begin{abstract}
+This lab report provides a comprehensive overview of essential computer networking hardware components and configurations encountered in practical networking environments. The main objective of this lab was to familiarize students with various networking tools and equipment such as cable testers, cable tracers, RS-232 cables, fiber optic duplex cables, SFP modules, and to understand the physical and logical aspects of network devices like switches and routers.\\
+Through hands-on activities, we learned how to identify, test, and properly connect network cables using T-568B wiring standards, configure routers for Dynamic NAT and DHCP, and establish effective connections between switches and routers. The report also discusses the conceptual framework of the OSI Model to better understand the layer-wise interaction of network protocols and hardware.\\
+By engaging in these exercises, students developed a strong foundational understanding of how computer networks are physically built and logically managed, which is crucial for further studies and careers in networking and IT infrastructure. The inclusion of real-world scenarios and step-by-step procedures reinforced the theoretical knowledge with practical implementation, bridging the gap between textbook learning and field expertise.\\
+\end{abstract}
+
+
+\section{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+The rapid growth of computer networks and internet-based technologies has significantly increased the demand for reliable and high-performance network infrastructure. Understanding the physical hardware components that form the foundation of such networks is essential for any networking professional or student. This lab report provides a comprehensive overview of various fundamental hardware tools and equipment used in networking environments.
+
+In this report, we explore the practical application and functionality of essential devices such as cable tracers, cable testers, RS-232 cables, fiber optic duplex cables, and SFP modules. We also study network components like switches and routers, along with their configurations and interconnections. A key focus is placed on the T-568B Ethernet cabling standard, which defines the proper arrangement of wire pairs in twisted-pair cables for effective network communication.
+
+Additionally, the report covers the Open Systems Interconnection (OSI) model, a conceptual framework that categorizes and standardizes the functions of a communication system into seven distinct layers. Each hardware topic is supported with descriptions and relevant images to aid in practical understanding.
+
+This lab aims to enhance student's hands-on skills in identifying, using, and configuring networking hardware, thereby building a strong foundation for designing and managing robust network systems.
+
+\newpage
+
+\section{Router Configuration :}
+
+\subsection{Router N1}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+hostname N1
+interface GigabitEthernet0/0
+ ip address 172.05.16.1 255.255.255.252
+ no shutdown
+interface GigabitEthernet0/1
+ ip address 172.05.16.5 255.255.255.252
+ no shutdown
+interface GigabitEthernet0/2
+ ip address 172.05.16.9 255.255.255.252
+ no shutdown
+exit
+ip routing
+\end{lstlisting}
+\newpage
+\subsection{Router N2}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+hostname N2
+interface GigabitEthernet0/0
+ ip address 172.05.16.2 255.255.255.252
+ no shutdown
+interface GigabitEthernet0/1
+ ip address 172.05.16.13 255.255.255.252
+ no shutdown
+exit
+ip routing
+\end{lstlisting}
+
+\subsection{Router N3}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+hostname N3
+interface GigabitEthernet0/0
+ ip address 172.05.16.6 255.255.255.252
+ no shutdown
+interface GigabitEthernet0/1
+ ip address 172.05.16.17 255.255.255.252
+ no shutdown
+interface GigabitEthernet0/2
+ ip address 172.05.16.25 255.255.255.252
+ no shutdown
+exit
+ip routing
+\end{lstlisting}
+
+\subsection{Router N4}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+hostname N4
+interface GigabitEthernet0/0
+ ip address 172.05.16.10 255.255.255.252
+ no shutdown
+interface GigabitEthernet0/1
+ ip address 172.05.16.21 255.255.255.252
+ no shutdown
+interface GigabitEthernet0/2
+ ip address 172.05.16.29 255.255.255.252
+ no shutdown
+exit
+ip routing
+\end{lstlisting}
+\newpage
+\section{DHCP Configuration Examples}
+
+\subsection{CSE}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool CSE
+ network 172.05.0.0 255.255.248.0
+ default-router 172.05.0.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+
+\subsection{ECE}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool ECE
+ network 172.05.8.0 255.255.252.0
+ default-router 172.05.8.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+
+\subsection{ICT}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool ICT
+ network 172.05.12.0 255.255.254.0
+ default-router 172.05.12.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+
+\subsection{SH}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool SH
+ network 172.05.14.0 255.255.255.0
+ default-router 172.05.14.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+
+\subsection{AdminT}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool AdminT
+ network 172.05.15.0 255.255.255.128
+ default-router 172.25.15.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+\newpage
+\section{Testing}
+In Cisco Packet Tracer, after giving packet on PC0 to Router17 \& PC1 to PC3 (etc.) the packet send and recive is successful. 
+
+\end{document}
