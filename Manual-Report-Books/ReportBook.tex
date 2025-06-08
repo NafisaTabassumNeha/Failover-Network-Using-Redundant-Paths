@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{fontspec}
@@ -14,16 +14,28 @@
 \usepackage{hyperref}
 \usepackage{setspace}
 \usepackage{geometry}
+
 \geometry{a4paper, margin=1in}
 \renewcommand{\contentsname}{Table of Contents}
 \hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue}
   
 
+% Header/Footer setup
 \pagestyle{fancy}
-\fancyhf{} 							% Header Middle
-\rhead{Computer Networks Lab}
-\lhead{Hardware Lab Report}
-\rfoot{\thepage}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[L]{Chapter \thechapter} % Left header: Chapter number
+\fancyhead[R]{\nouppercase{\leftmark}} % Right header: Chapter title
+\fancyfoot[C]{\thepage} % Center footer: page number
+
+% Make sure chapter marks are updated
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+% Prevent header on chapter first page
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
 
 \begin{document}
 
@@ -36,7 +48,7 @@
     \textbf{\Huge \textcolor{orange}{BANGLADESH}} \\
     
     \vspace{0.9cm}
-    \textbf{\Huge \underline{Computer Networks Hardware Lab Report}} \\
+    \textbf{\Huge \underline{Computer Networks Project Report}} \\
     
     \vspace{1.5em}
     \begin{flushleft}
@@ -44,18 +56,22 @@
 		\vspace{0.3cm}        
         \textbf{\Large Course Title: Computer Networks Lab} \\
         \vspace{0.3cm}
-        \textbf{\Large Lab Task Topic: Introduction to Hardware Equipments} \\        
+        \textbf{\Large Project Title: Failover Network Using Redundant Paths} \\
+		\vspace{0.3cm}        
+        \textbf{\Large Batch : CSE (19+20)}        
     \end{flushleft}
     
     \vspace{1em}
     \begin{flushleft}
         \textbf{\Huge \textcolor{blue}{Submitted by:}} \\
         \vspace{0.3cm}
-        \textbf{\Large Name: Istiak Alam} \\
+        \textbf{\Large Sazzad Jelani \hspace{3.9cm} ID: 0692220005101003} \\
         \vspace{0.3cm}
-        \textbf{\Large ID: 0692230005101005} \\
+        \textbf{\Large Nafisa Tabassum \hspace{3cm} ID: 0692220005101008} \\
+		\vspace{0.3cm}
+		\textbf{\Large Sadia Islam Mim \hspace{3cm} ID: 0692220005101010} \\
 		\vspace{0.3cm}        
-        \textbf{\Large Batch: CSE-20} \\
+        \textbf{\Large Istiak Alam (CSE 20) \hspace{1.9cm} ID: 0692230005101005} \\
         \vspace{0.5cm}
         \textbf{\Large Submission Date: }{\Large \textbf{\today}\par}
     \end{flushleft}
@@ -72,20 +88,22 @@
 \end{center}
 \end{titlepage}						% Cover End
 
+\begin{abstract}
+\thispagestyle{empty}
+This lab report provides a comprehensive overview of essential computer networking hardware components and configurations encountered in practical networking environments. The main objective of this lab was to familiarize students with various networking tools and equipment such as cable testers, cable tracers, RS-232 cables, fiber optic duplex cables, SFP modules, and to understand the physical and logical aspects of network devices like switches and routers.\\
+Through hands-on activities, we learned how to identify, test, and properly connect network cables using T-568B wiring standards, configure routers for Dynamic NAT and DHCP, and establish effective connections between switches and routers. The report also discusses the conceptual framework of the OSI Model to better understand the layer-wise interaction of network protocols and hardware.\\
+By engaging in these exercises, students developed a strong foundational understanding of how computer networks are physically built and logically managed, which is crucial for further studies and careers in networking and IT infrastructure. The inclusion of real-world scenarios and step-by-step procedures reinforced the theoretical knowledge with practical implementation, bridging the gap between textbook learning and field expertise.\\
+\end{abstract}
+\newpage
+
 \tableofcontents
 \thispagestyle{empty}
 \clearpage
 \pagenumbering{arabic}
 
-\begin{abstract}
-This lab report provides a comprehensive overview of essential computer networking hardware components and configurations encountered in practical networking environments. The main objective of this lab was to familiarize students with various networking tools and equipment such as cable testers, cable tracers, RS-232 cables, fiber optic duplex cables, SFP modules, and to understand the physical and logical aspects of network devices like switches and routers.\\
-Through hands-on activities, we learned how to identify, test, and properly connect network cables using T-568B wiring standards, configure routers for Dynamic NAT and DHCP, and establish effective connections between switches and routers. The report also discusses the conceptual framework of the OSI Model to better understand the layer-wise interaction of network protocols and hardware.\\
-By engaging in these exercises, students developed a strong foundational understanding of how computer networks are physically built and logically managed, which is crucial for further studies and careers in networking and IT infrastructure. The inclusion of real-world scenarios and step-by-step procedures reinforced the theoretical knowledge with practical implementation, bridging the gap between textbook learning and field expertise.\\
-\end{abstract}
 
+\chapter{Introduction}
 
-\section{Introduction}
-\addcontentsline{toc}{section}{Introduction}
 The rapid growth of computer networks and internet-based technologies has significantly increased the demand for reliable and high-performance network infrastructure. Understanding the physical hardware components that form the foundation of such networks is essential for any networking professional or student. This lab report provides a comprehensive overview of various fundamental hardware tools and equipment used in networking environments.
 
 In this report, we explore the practical application and functionality of essential devices such as cable tracers, cable testers, RS-232 cables, fiber optic duplex cables, and SFP modules. We also study network components like switches and routers, along with their configurations and interconnections. A key focus is placed on the T-568B Ethernet cabling standard, which defines the proper arrangement of wire pairs in twisted-pair cables for effective network communication.
@@ -96,7 +114,7 @@ This lab aims to enhance student's hands-on skills in identifying, using, and co
 
 \newpage
 
-\section{Router Configuration :}
+\chapter{Router Configuration :}
 
 \subsection{Router N1}
 \begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
@@ -159,7 +177,8 @@ exit
 ip routing
 \end{lstlisting}
 \newpage
-\section{DHCP Configuration Examples}
+
+\chapter{DHCP Configuration Examples}
 
 \subsection{CSE}
 \begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
@@ -201,7 +220,7 @@ ip dhcp pool AdminT
  dns-server 8.8.8.8
 \end{lstlisting}
 \newpage
-\section{Testing}
+\chapter{Testing}
 In Cisco Packet Tracer, after giving packet on PC0 to Router17 \& PC1 to PC3 (etc.) the packet send and recive is successful. 
 
 \end{document}

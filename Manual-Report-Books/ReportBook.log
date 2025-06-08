@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.4.24)  8 JUN 2025 15:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.4.24)  8 JUN 2025 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,19 +6,20 @@ entering extended mode
 (ReportBook.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -48,11 +49,11 @@ Package: expl3 2024-01-04 L3 programming layer (loader)
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
 ex.def
 File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
-\g__graphics_track_int=\count191
+\g__graphics_track_int=\count192
 \l__pdf_internal_box=\box51
-\g__pdf_backend_object_int=\count192
-\g__pdf_backend_annotation_int=\count193
-\g__pdf_backend_link_int=\count194
+\g__pdf_backend_object_int=\count193
+\g__pdf_backend_annotation_int=\count194
+\g__pdf_backend_link_int=\count195
 ))
 Package: xparse 2023-10-10 L3 Experimental document command parser
 )
@@ -62,17 +63,17 @@ Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 .sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count195
-\l__fontspec_language_int=\count196
-\l__fontspec_strnum_int=\count197
-\l__fontspec_tmp_int=\count198
-\l__fontspec_tmpa_int=\count199
-\l__fontspec_tmpb_int=\count266
-\l__fontspec_tmpc_int=\count267
-\l__fontspec_em_int=\count268
-\l__fontspec_emdef_int=\count269
-\l__fontspec_strong_int=\count270
-\l__fontspec_strongdef_int=\count271
+\l__fontspec_script_int=\count196
+\l__fontspec_language_int=\count197
+\l__fontspec_strnum_int=\count198
+\l__fontspec_tmp_int=\count199
+\l__fontspec_tmpa_int=\count266
+\l__fontspec_tmpb_int=\count267
+\l__fontspec_tmpc_int=\count268
+\l__fontspec_em_int=\count269
+\l__fontspec_emdef_int=\count270
+\l__fontspec_strong_int=\count271
+\l__fontspec_strongdef_int=\count272
 \l__fontspec_tmpa_dim=\dimen141
 \l__fontspec_tmpb_dim=\dimen142
 \l__fontspec_tmpc_dim=\dimen143
@@ -167,23 +168,23 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-\lst@mode=\count272
+\lst@mode=\count273
 \lst@gtempboxa=\box53
 \lst@token=\toks22
-\lst@length=\count273
+\lst@length=\count274
 \lst@currlwidth=\dimen149
-\lst@column=\count274
-\lst@pos=\count275
+\lst@column=\count275
+\lst@pos=\count276
 \lst@lostspace=\dimen150
 \lst@width=\dimen151
-\lst@newlines=\count276
-\lst@lineno=\count277
+\lst@newlines=\count277
+\lst@lineno=\count278
 \lst@maxwidth=\dimen152
 
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count278
-\lst@skipnumbers=\count279
+\c@lstnumber=\count279
+\lst@skipnumbers=\count280
 \lst@framebox=\box54
 )
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -234,17 +235,17 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip67
 \LTpre=\skip68
 \LTpost=\skip69
-\LTchunksize=\count280
+\LTchunksize=\count281
 \LTcapwidth=\dimen155
 \LT@head=\box55
 \LT@firsthead=\box56
 \LT@foot=\box57
 \LT@lastfoot=\box58
 \LT@gbox=\box59
-\LT@cols=\count281
-\LT@rows=\count282
-\c@LT@tables=\count283
-\c@LT@chunks=\count284
+\LT@cols=\count282
+\LT@rows=\count283
+\c@LT@tables=\count284
+\c@LT@chunks=\count285
 \LT@p@ftn=\toks23
 )
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
@@ -262,8 +263,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen163
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count285
-\c@continuedfloat=\count286
+\c@caption@flags=\count286
+\c@continuedfloat=\count287
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -325,15 +326,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count287
+\c@section@level=\count288
 )
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count288
+\etb@tempcnta=\count289
 )
 \@linkdim=\dimen164
-\Hy@linkcounter=\count289
-\Hy@pagecounter=\count290
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
 
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
@@ -341,7 +342,7 @@ File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count291
+\Hy@SavedSpaceFactor=\count292
 
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
@@ -353,7 +354,7 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count292
+\c@Hy@tempcnt=\count293
 
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
@@ -370,7 +371,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count293
+\Fld@menulength=\count294
 \Field@Width=\dimen166
 \Fld@charsize=\dimen167
 Package hyperref Info: Hyper figures OFF on input line 6065.
@@ -385,9 +386,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count294
-\c@Item=\count295
-\c@Hfootnote=\count296
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
@@ -399,10 +400,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box60
-\c@Hy@AnnotLevel=\count297
-\HyField@AnnotCount=\count298
-\Fld@listcount=\count299
-\c@bookmark@seq@number=\count300
+\c@Hy@AnnotLevel=\count298
+\HyField@AnnotCount=\count299
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
 
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -431,9 +432,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count301
-\Gm@cntv=\count302
-\c@Gm@tempcnt=\count303
+\Gm@cnth=\count302
+\Gm@cntv=\count303
+\c@Gm@tempcnt=\count304
 \Gm@bindingoffset=\dimen168
 \Gm@wd@mp=\dimen169
 \Gm@odd@mp=\dimen170
@@ -445,105 +446,105 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks24
 
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
 (ReportBook.aux)
 \openout1 = `ReportBook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+0.
 
 (C:\Users\istia\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 28.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 28.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 28.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 28.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 28.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 28.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 28.
-LaTeX Font Info:    Redeclaring math accent \check on input line 28.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 28.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 28.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 40.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 40.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 40.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 40.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 40.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 40.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 40.
+LaTeX Font Info:    Redeclaring math accent \check on input line 40.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 40.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 40.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 40.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 40.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 28.
+(Font)              `operators' in the math version `normal' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-8.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 4
+0.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 28.
+(Font)              `operators' in the math version `bold' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-28.
+40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 28.
+input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 28.
+ 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-28.
+40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 28.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 28.
+input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 28.
+e 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 28.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 28.
-\c@lstlisting=\count304
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 40.
+\c@lstlisting=\count305
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 28.
+Package hyperref Info: Link coloring ON on input line 40.
 
 (ReportBook.out) (ReportBook.out)
 \@outlinefile=\write3
@@ -587,42 +588,43 @@ Package hyperref Info: Link coloring ON on input line 28.
 File: logo.png Graphic file (type bmp)
 <logo.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 39.
+(Font)              <24.88> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 39.
+(Font)              <20.74> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 39.
-
-Overfull \hbox (9.55966pt too wide) in paragraph at lines 39--39
- []$[]$ 
- []
-
+(Font)              <17.28> on input line 51.
 [1
 
-] (ReportBook.toc
+]
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+
+ []
+
+[1] (ReportBook.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write4
 \openout4 = `ReportBook.toc'.
 
- [1]
-Underfull \hbox (badness 10000) in paragraph at lines 81--84
+ [1
 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
+]
+Chapter 1.
 [1
+
+
+]
+Chapter 2.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 119.
+
+[2
 
 ]
 
@@ -632,15 +634,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [3]
+Chapter 3.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 183.
+
+[4
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -648,29 +650,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
+[5]
+Chapter 4.
+[6
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[5] (ReportBook.aux)
+] (ReportBook.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `ReportBook.out' has not changed.
-(rerunfilecheck)             Checksum: 8452A8F70AE81FFE98FB04D223C4972E;1422.
+(rerunfilecheck)             Checksum: FEEEFECF38A2325E829DA11662109021;1385.
  ) 
 Here is how much of TeX's memory you used:
- 14991 strings out of 409617
- 286975 string characters out of 5774013
+ 14999 strings out of 409617
+ 286990 string characters out of 5774013
  1961191 words of memory out of 5000000
- 36910 multiletter control sequences out of 15000+600000
- 567202 words of font info for 93 fonts, out of 8000000 for 9000
+ 36918 multiletter control sequences out of 15000+600000
+ 567194 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,11n,93p,514b,960s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,93p,514b,960s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ReportBook.pdf (7 pages).
+Output written on ReportBook.pdf (9 pages).
