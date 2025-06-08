@@ -114,7 +114,61 @@ This lab aims to enhance student's hands-on skills in identifying, using, and co
 
 \newpage
 
-\chapter{Router Configuration :}
+\chapter{Problem Statement}
+\section{Objective}
+\newpage
+eihgfj hir8gn ieng nenh nih ni
+
+
+\chapter{Possible Solutions}
+
+\subsection{CSE}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool CSE
+ network 172.05.0.0 255.255.248.0
+ default-router 172.05.0.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+
+\subsection{ECE}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool ECE
+ network 172.05.8.0 255.255.252.0
+ default-router 172.05.8.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+
+\subsection{ICT}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool ICT
+ network 172.05.12.0 255.255.254.0
+ default-router 172.05.12.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+
+\subsection{SH}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool SH
+ network 172.05.14.0 255.255.255.0
+ default-router 172.05.14.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+
+\subsection{AdminT}
+\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
+ip dhcp pool AdminT
+ network 172.05.15.0 255.255.255.128
+ default-router 172.25.15.1
+ dns-server 8.8.8.8
+\end{lstlisting}
+\newpage
+
+\chapter{Background Study}
+\chapter{Routing Protocols}
+\chapter{Implementation}
+\chapter{Network Topologies}
+
+\chapter{Router Configuration}
 
 \subsection{Router N1}
 \begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
@@ -178,49 +232,10 @@ ip routing
 \end{lstlisting}
 \newpage
 
-\chapter{DHCP Configuration Examples}
-
-\subsection{CSE}
-\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
-ip dhcp pool CSE
- network 172.05.0.0 255.255.248.0
- default-router 172.05.0.1
- dns-server 8.8.8.8
-\end{lstlisting}
-
-\subsection{ECE}
-\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
-ip dhcp pool ECE
- network 172.05.8.0 255.255.252.0
- default-router 172.05.8.1
- dns-server 8.8.8.8
-\end{lstlisting}
-
-\subsection{ICT}
-\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
-ip dhcp pool ICT
- network 172.05.12.0 255.255.254.0
- default-router 172.05.12.1
- dns-server 8.8.8.8
-\end{lstlisting}
-
-\subsection{SH}
-\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
-ip dhcp pool SH
- network 172.05.14.0 255.255.255.0
- default-router 172.05.14.1
- dns-server 8.8.8.8
-\end{lstlisting}
-
-\subsection{AdminT}
-\begin{lstlisting}[basicstyle=\ttfamily\small, frame=single]
-ip dhcp pool AdminT
- network 172.05.15.0 255.255.255.128
- default-router 172.25.15.1
- dns-server 8.8.8.8
-\end{lstlisting}
-\newpage
 \chapter{Testing}
 In Cisco Packet Tracer, after giving packet on PC0 to Router17 \& PC1 to PC3 (etc.) the packet send and recive is successful. 
+
+\chapter{Possible Errors and Feedback}
+
 
 \end{document}
