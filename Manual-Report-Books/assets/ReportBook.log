@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.4.24)  10 JUN 2025 14:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.4.24)  10 JUN 2025 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,12 +724,12 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `ReportBook.out' has not changed.
-(rerunfilecheck)             Checksum: 60AD6D19195119E111F030EA24F237B4;4368.
+(rerunfilecheck)             Checksum: 4004E80039AAC98C7D35DA476F0AD2E3;4539.
  ) 
 Here is how much of TeX's memory you used:
  15704 strings out of 409617
  297054 string characters out of 5774013
- 1927191 words of memory out of 5000000
+ 1928191 words of memory out of 5000000
  37617 multiletter control sequences out of 15000+600000
  567194 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
