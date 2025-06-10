@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.4.24)  10 JUN 2025 02:30
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.4.24)  10 JUN 2025 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -615,7 +615,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 95--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
@@ -634,6 +639,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
 [1
 
 
@@ -646,6 +671,22 @@ Chapter 3.
 [3
 
 ]
+Chapter 4.
+[4
+
+]
+Chapter 5.
+[5
+
+]
+Chapter 6.
+[6
+
+]
+Chapter 7.
+[7
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -653,23 +694,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
-Chapter 4.
-[5
-
-]
-Chapter 5.
-[6
-
-]
-Chapter 6.
-[7
-
-]
-Chapter 7.
-[8
-
-]
+[8]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -678,23 +703,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]
 Chapter 8.
-[11
+[10
 
 ]
 Chapter 9.
-[12
+[11
 
 ]
 Chapter 10.
+[12
+
+]
+Chapter 11.
 [13
 
 ] (ReportBook.aux)
@@ -703,15 +724,15 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `ReportBook.out' has not changed.
-(rerunfilecheck)             Checksum: F4B09E458BD55CA5851EBA7BFDA26351;3787.
+(rerunfilecheck)             Checksum: 60AD6D19195119E111F030EA24F237B4;4368.
  ) 
 Here is how much of TeX's memory you used:
  15704 strings out of 409617
  297054 string characters out of 5774013
- 1926191 words of memory out of 5000000
+ 1927191 words of memory out of 5000000
  37617 multiletter control sequences out of 15000+600000
  567194 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,11n,93p,514b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,700b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on ReportBook.pdf (16 pages).

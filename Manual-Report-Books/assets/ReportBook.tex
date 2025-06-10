@@ -92,9 +92,9 @@
 
 \begin{abstract}
 \thispagestyle{empty}
-This lab report provides a comprehensive overview of essential computer networking hardware components and configurations encountered in practical networking environments. The main objective of this lab was to familiarize students with various networking tools and equipment such as cable testers, cable tracers, RS-232 cables, fiber optic duplex cables, SFP modules, and to understand the physical and logical aspects of network devices like switches and routers.\\
-Through hands-on activities, we learned how to identify, test, and properly connect network cables using T-568B wiring standards, configure routers for Dynamic NAT and DHCP, and establish effective connections between switches and routers. The report also discusses the conceptual framework of the OSI Model to better understand the layer-wise interaction of network protocols and hardware.\\
-By engaging in these exercises, students developed a strong foundational understanding of how computer networks are physically built and logically managed, which is crucial for further studies and careers in networking and IT infrastructure. The inclusion of real-world scenarios and step-by-step procedures reinforced the theoretical knowledge with practical implementation, bridging the gap between textbook learning and field expertise.\\
+In modern enterprise and institutional networks, ensuring high availability and fault tolerance is critical for continuous service delivery. A single point of failure, especially in the default gateway or switching paths, can disrupt communication across the entire network. This project addresses this challenge by designing and implementing a failover network using redundant paths through the use of the Spanning Tree Protocol (STP) and the Hot Standby Router Protocol (HSRP), including its extended form—Multiple HSRP (MHSRP).\\
+
+The goal is to build a network topology that remains resilient even in the event of hardware failure by automatically redirecting traffic through backup paths and routers without human intervention. The implementation includes VLAN segmentation for network efficiency, Inter-VLAN routing, STP to avoid loops, and MHSRP for seamless gateway redundancy. Practical testing and simulation were carried out in Cisco Packet Tracer, demonstrating successful failover transitions and recovery. This project not only proves the feasibility of fault-tolerant networking at scale but also prepares the groundwork for more advanced high-availability designs in the future.\\
 \end{abstract}
 \newpage
 
@@ -106,29 +106,30 @@ By engaging in these exercises, students developed a strong foundational underst
 
 \chapter{Introduction}
 
-The rapid growth of computer networks and internet-based technologies has significantly increased the demand for reliable and high-performance network infrastructure. Understanding the physical hardware components that form the foundation of such networks is essential for any networking professional or student. This lab report provides a comprehensive overview of various fundamental hardware tools and equipment used in networking environments.
+In today’s digital era, uninterrupted network connectivity is fundamental to the operation of any organization or institution. Businesses, educational institutions, and critical infrastructure all rely heavily on the availability and reliability of their networks. A single point of failure - such as the failure of a router or a switch - can result in serious communication breakdowns, service outages, and potentially huge losses in productivity and revenue.\\
 
-In this report, we explore the practical application and functionality of essential devices such as cable tracers, cable testers, RS-232 cables, fiber optic duplex cables, and SFP modules. We also study network components like switches and routers, along with their configurations and interconnections. A key focus is placed on the T-568B Ethernet cabling standard, which defines the proper arrangement of wire pairs in twisted-pair cables for effective network communication.
+To address such challenges, modern networks are designed with failover capabilities and redundancy protocols. Failover networks are structured in such a way that if one pathway or device fails, alternate routes or backup devices automatically take over, ensuring continuous connectivity. These redundant paths and protocols are essential for maintaining high availability, fault tolerance, and efficient data routing.\\
 
-Additionally, the report covers the Open Systems Interconnection (OSI) model, a conceptual framework that categorizes and standardizes the functions of a communication system into seven distinct layers. Each hardware topic is supported with descriptions and relevant images to aid in practical understanding.
+This project, titled \textbf{“Failover Network Using Redundant Paths”}, focuses on designing and implementing a reliable and resilient network infrastructure using Cisco Packet Tracer. The core idea is to deploy a combination of Layer 2 and Layer 3 redundancy techniques - specifically, the Spanning Tree Protocol (STP) for loop avoidance and the Hot Standby Router Protocol (HSRP) and its extension, Multiple HSRP (MHSRP), for gateway failover.\\
 
-This lab aims to enhance student's hands-on skills in identifying, using, and configuring networking hardware, thereby building a strong foundation for designing and managing robust network systems.
+In the designed topology, each local area network (LAN) is connected through multiple routers and switches. Virtual LANs (VLANs) are used for logical segmentation, and trunk links are implemented to carry multiple VLAN traffic between devices. MHSRP allows both routers to serve as active and standby gateways for different VLANs, enhancing load balancing and reliability. If one router fails, the other automatically takes over the traffic for all VLANs, minimizing downtime and ensuring consistent network operation.\\
+
+This chapter introduces the problem domain, outlines the motivation behind the project, and gives an overview of the approach taken. The following chapters delve into the technical implementation, configuration, challenges faced, and testing procedures used to validate the failover functionality.
 
 \newpage
 
-\chapter{A Network Topology}
+\chapter{Network Topology Overview}
 \chapter{Problem Statement}
-\section{Objective}
-\newpage
-eihgfj hir8gn ieng nenh nih ni
-\chapter{Possible Solutions}
+\section{Analyzing the Problem}
+\section{Project Objective}
+\chapter{Proposed Solution and Design Approach}
 \chapter{Background Study}
 \chapter{Routing Protocols}
 \section{Hot Standby Router Protocol}
 \section{Multiple Hot Standby Router Protocol}
 \newpage
 
-\chapter{Hot Standby Router Protocol}
+\chapter{HSRP Configuration}
 
 \section{Router Configuration}
 \subsection*{Step 1 Configure IP on Router1}
@@ -198,17 +199,17 @@ exit
 
 \newpage
 
-\section{Testing in HSRP Protocol}
-In Cisco Packet Tracer, after giving packet on PC0 to Router17 \& PC1 to PC3 (etc.) the packet send and recive is successful. 
+\section{Testing in HSRP Protocol} 
 
-\chapter{Multiple Hot Standby Router Protocol}
+\chapter{Multiple Hot Standby Router Protocol Configuration}
 \section{Big Network Problems}
 \section{Implementation of MHSRP in Network}
 \section{Router Configuration of MHSRP}
 \section{PC IP Configuration}
 \section{Switch Configuration}
 \section{Testing in MHSRP Protocol}
-\chapter{Possible Errors and Feedback}
+\chapter{Troubleshooting and Observations}
+\chapter{Future Work and Improvements}
 \chapter{References}
 
 \end{document}

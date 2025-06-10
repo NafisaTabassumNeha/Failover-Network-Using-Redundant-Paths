@@ -1,23 +1,25 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}A Network Topology}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Network Topology Overview}{2}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Problem Statement}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Objective}{3}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Possible Solutions}{5}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Background Study}{6}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Routing Protocols}{7}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Hot Standby Router Protocol}{7}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Multiple Hot Standby Router Protocol}{7}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Hot Standby Router Protocol}{8}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Router Configuration}{8}{section.7.1}%
-\contentsline {section}{\numberline {7.2}PC IP Configuration}{9}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Switch Configuration}{9}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Testing in HSRP Protocol}{10}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Multiple Hot Standby Router Protocol}{11}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Big Network Problems}{11}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Implementation of MHSRP in Network}{11}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Router Configuration of MHSRP}{11}{section.8.3}%
-\contentsline {section}{\numberline {8.4}PC IP Configuration}{11}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Switch Configuration}{11}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Testing in MHSRP Protocol}{11}{section.8.6}%
-\contentsline {chapter}{\numberline {9}Possible Errors and Feedback}{12}{chapter.9}%
-\contentsline {chapter}{\numberline {10}References}{13}{chapter.10}%
+\contentsline {section}{\numberline {3.1}Analyzing the Problem}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Project Objective}{3}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Proposed Solution and Design Approach}{4}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Background Study}{5}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Routing Protocols}{6}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Hot Standby Router Protocol}{6}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Multiple Hot Standby Router Protocol}{6}{section.6.2}%
+\contentsline {chapter}{\numberline {7}HSRP Configuration}{7}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Router Configuration}{7}{section.7.1}%
+\contentsline {section}{\numberline {7.2}PC IP Configuration}{8}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Switch Configuration}{8}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Testing in HSRP Protocol}{9}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Multiple Hot Standby Router Protocol Configuration}{10}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Big Network Problems}{10}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Implementation of MHSRP in Network}{10}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Router Configuration of MHSRP}{10}{section.8.3}%
+\contentsline {section}{\numberline {8.4}PC IP Configuration}{10}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Switch Configuration}{10}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Testing in MHSRP Protocol}{10}{section.8.6}%
+\contentsline {chapter}{\numberline {9}Troubleshooting and Observations}{11}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Future Work and Improvements}{12}{chapter.10}%
+\contentsline {chapter}{\numberline {11}References}{13}{chapter.11}%
